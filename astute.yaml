@@ -1,0 +1,10 @@
+--- 
+task_uuid: deployment_task
+nodes: 
+- role: primary-controller
+  uid: fuel-controller-01
+- role: compute
+  uid: fuel-compute-01
+attributes: 
+  deployment_engine: simplepuppet
+  deployment_mode: ha_full
